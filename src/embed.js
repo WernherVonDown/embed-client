@@ -311,7 +311,7 @@ class Embed {
    * @return {Promise}
    */
   setMasterVolume(parameters) {
-    return this.call('getMasterVolume', parameters);
+    return this.call('setMasterVolume', parameters);
   }
 
   /**
