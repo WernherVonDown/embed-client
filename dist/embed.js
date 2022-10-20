@@ -647,7 +647,7 @@
     }, {
       key: "setMasterVolume",
       value: function setMasterVolume(parameters) {
-        return this.call('getMasterVolume', parameters);
+        return this.call('setMasterVolume', parameters);
       }
       /**
        * Get the volume of a part
